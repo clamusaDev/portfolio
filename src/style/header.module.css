@@ -1,0 +1,51 @@
+.headerContainer {
+  position: fixed;
+  
+  max-width: 375px;
+  min-width: 375px;
+  width: 100%;
+  height: 70px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(34, 65, 96, 0.938);
+  z-index: 20
+}
+
+.menuHamburger {
+  width: 100%;
+  margin: 25px 0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 22px;
+
+  color: rgb(190, 188, 188);
+}
+
+.headerDescription {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleHeader {
+  font-size: 18px;
+  color: rgba(236, 198, 43, 0.936);
+  font-weight: 800px;
+  line-height: 25px;
+}
+
+.paragraphHeader {
+  font-size: 12px;
+  font-weight: 700;
+  color: #dddbdb;
+}

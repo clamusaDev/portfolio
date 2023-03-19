@@ -1,0 +1,56 @@
+.containerMain {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: tomato;
+}
+
+
+  /* background-color: tomato; */
+
+/* Revisar tamaño de imagenes de fondo y developer */
+/* no funciona con background */
+/* .aboutBgImage {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  top: 70px;
+  z-index: 1;
+} */
+/* background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.6)), */
+/* url(../img/bg14.jpg) no-repeat center center; */
+/* object-fit: fill; */
+
+.aboutDevImage {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  top: -30px;
+  left: 120px;
+  font-size: 22px;
+  background-color: lightblue;
+  margin: auto;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.aboutContainer {
+  width: 60%;
+  margin: auto;
+  background-color: lightblue;
+}
+
+.aboutName,
+.aboutProfesion,
+.aboutExperience,
+.aboutStack,
+.aboutMaster {
+  font-size: 16px;
+  color: #000;
+}
+
+/* .aboutDevImage{
+  width: 120px;
+  height: 120px;
+} */
+/* height: calc(100vh - 30px); */
